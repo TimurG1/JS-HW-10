@@ -51,5 +51,3 @@ const repeatMessage = (times, messageCreator) => {
 };
 
 const ownMessage = (num) => console.log(`${num + 1}. Hello world!`)
-
-repeatMessage(7, ownMessage);
